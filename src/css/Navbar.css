@@ -1,0 +1,35 @@
+.nav {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 2; /* Set a higher z-index */
+    transition-timing-function: ease-in;
+  }
+
+.nav-bar-content {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.img-logo {
+    position: fixed;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    cursor: pointer;
+    top: 5px;
+
+}
+
+.user-logo {
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    cursor: pointer;
+    top: 10px;
+    
+}
